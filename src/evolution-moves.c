@@ -42,7 +42,7 @@ void NAKED Task_EvolutionScene__Hook(void)
         mov r0, r9\n\
         ldr r3, =MonTryLearningNewMoveAfterEvolution\n\
         bl call\n\
-        ldr r3, =0x080CEDDC |1\n\
+        ldr r3, =0x0813EA3C |1\n\
     call:\n\
         bx r3\n\
     .pool");

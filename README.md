@@ -2,7 +2,7 @@
 
 Sun and Moon introduced a feature where Pokémon can learn one or more moves when evolving, regardless of what level it evolves on. For example, Vaporeon will learn Water Gun when it evolves, regardless of whether it evolves on level 1 or level 100, or anywhere in between.
 
-This brings that to Fire Red.
+This brings that to Emerald.
 
 ### Build Instructions
 
@@ -13,8 +13,8 @@ See [here](https://gist.github.com/Zeturic/db1611cc7b17c3140f9b9af32e1b596b) for
 Open your terminal to whatever folder you want to download this repo into. Then, do the following to download the repo and build the included tools:
 
 ```shell
-$ git clone https://github.com/Zeturic/bpre-evolution-moves.git
-$ cd bpre-evolution-moves
+$ git clone https://github.com/Axcellerator/bpee-evolution-moves.git
+$ cd bpee-evolution-moves
 ```
 
 #### Adding your ROM
@@ -40,5 +40,5 @@ PGE doesn't let you set a move to level 0 *unless* you are using Jambo-style lea
 In short, if you're using regular-style learnsets, add your evolution moves using G3T. If you're using Jambo-syle learnsets, add your evolution moves using PGE.
 
 ### Credits
-
+[Zeturic for original routine for FR.](https://github.com/Zeturic/bpre-evolution-moves).
 The project structure and some of the build tools are from [pokeemerald](https://github.com/pret/pokeemerald).

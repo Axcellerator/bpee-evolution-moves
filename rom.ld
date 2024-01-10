@@ -1,11 +1,11 @@
-GiveMoveToMon           = 0x0803E89C |1;
-GetMonData              = 0x0803FBE8 |1;
+GiveMoveToMon           = 0x0806912C |1;
+GetMonData              = 0x0806A518 |1;
 
 /* -------------------------------------------------------------------------- */
 
-gMoveToLearn            = 0x02024022;
-sLearningMoveTableID    = 0x02024028;
+gMoveToLearn            = 0x020244E2;
+sLearningMoveTableID    = 0x020244E8;
 
-gTasks                  = 0x03005090;
+gTasks                  = 0x03005E00;
 
-gLevelUpLearnsetsPtr    = 0x0803EA7C;
+gLevelUpLearnsetsPtr    = 0x0806930C;
